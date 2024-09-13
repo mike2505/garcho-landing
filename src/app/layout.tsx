@@ -7,7 +7,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Garcho AI",
-  description: "Your AI-based chatbot",
+  description: "Your level 2 AI agents",
 };
 
 export default async function RootLayout({
