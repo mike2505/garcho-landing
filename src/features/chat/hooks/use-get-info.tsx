@@ -167,6 +167,7 @@ const getInfo = async (apiKey: string): Promise<Info | undefined> => {
       }
 
       const userInfo: Info = await response.json();
+      userInfo.colors = colors;
 
       return userInfo;
     } catch (error) {

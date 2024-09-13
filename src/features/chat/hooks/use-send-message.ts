@@ -98,7 +98,7 @@ const sendMessage = async (
       },
       body: JSON.stringify({
         agent_id: agentId,
-        session_id: Number(chatId),
+        session_id: String(chatId),
         message: question,
       }),
     });
@@ -109,7 +109,7 @@ const sendMessage = async (
       return data.error;
     }
 
-    const modifiedResponse = data.response
+    const modifiedResponse = data.message
       .replace(/\$FIRSTNAME/g, firstName)
       .replace(/\$LASTNAME/g, lastName);
 
