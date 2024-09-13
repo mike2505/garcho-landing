@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark light;
+
+    --tw-clr-green-100: 234 207 255; /* #eacfff */
+    --tw-clr-green-200: 216 171 255; /* #d8abff */
+    --tw-clr-green-300: 198 135 255; /* #c687ff */
+    --tw-clr-green-400: 180 99 255; /* #b463ff */
+    --tw-clr-green-500: 162 63 255; /* #a23fff */
+    --tw-clr-green-600: 144 44 244; /* #902cf4 */
+    --tw-clr-green-700: 126 36 214; /* #7e24d6 */
+    --tw-clr-green-800: 108 28 184; /* #6c1cb8 */
+    --tw-clr-green-900: 90 20 154; /* #5a149a */
+
+    --tw-clr-secondary-100: 238 241 232; /* #eef1e8 */
+    --tw-clr-secondary-200: 222 226 215; /* #dee2d7 */
+    --tw-clr-secondary-300: 165 167 162; /* #a5a7a2 */
+    --tw-clr-secondary-400: 109 111 104; /* #6d6f68 */
+    --tw-clr-secondary-500: 52 55 48; /* #343730 */
+    --tw-clr-secondary-600: 26 28 25; /* #1a1c19 */
+    --tw-clr-secondary-700: 19 21 18; /* #131512 */
+    --tw-clr-secondary-800: 16 18 15; /* #101209 */
+    --tw-clr-secondary-900: 0 0 0; /* #000000 */
+
+    --tw-clr-neutral-100: 80 80 75; /* #50504b */
+    --tw-clr-neutral-200: 70 70 65; /* #464641 */
+    --tw-clr-neutral-300: 60 63 55; /* #3c3f37 */
+    --tw-clr-neutral-400: 52 55 48; /* #343730 */
+    --tw-clr-neutral-500: 26 28 25; /* #1a1c19 */
+    --tw-clr-neutral-600: 19 21 18; /* #131512 */
+    --tw-clr-neutral-700: 16 18 15; /* #101209 */
+    --tw-clr-neutral-800: 19 21 18; /* #131512 */
+    --tw-clr-neutral-900: 26 28 25; /* #1a1c19 */
+    --tw-clr-primary-100: var(--tw-clr-green-100);
+    --tw-clr-primary-200: var(--tw-clr-green-200);
+    --tw-clr-primary-300: var(--tw-clr-green-300);
+    --tw-clr-primary-400: var(--tw-clr-green-400);
+    --tw-clr-primary-500: var(--tw-clr-green-500);
+    --tw-clr-primary-600: var(--tw-clr-green-600);
+    --tw-clr-primary-700: var(--tw-clr-green-700);
+    --tw-clr-primary-800: var(--tw-clr-green-800);
+    --tw-clr-primary-900: var(--tw-clr-green-900);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark light;
+
+      --tw-clr-secondary-100: 238 241 232; /* #eef1e8 */
+      --tw-clr-secondary-200: 222 226 215; /* #dee2d7 */
+      --tw-clr-secondary-300: 165 167 162; /* #a5a7a2 */
+      --tw-clr-secondary-400: 109 111 104; /* #6d6f68 */
+      --tw-clr-secondary-500: 52 55 48; /* #343730 */
+      --tw-clr-secondary-600: 26 28 25; /* #1a1c19 */
+      --tw-clr-secondary-700: 19 21 18; /* #131512 */
+      --tw-clr-secondary-800: 16 18 15; /* #101209 */
+      --tw-clr-secondary-900: 0 0 0; /* #000000 */
+
+      --tw-clr-neutral-100: 80 80 75; /* #50504b */
+      --tw-clr-neutral-200: 70 70 65; /* #464641 */
+      --tw-clr-neutral-300: 60 63 55; /* #3c3f37 */
+      --tw-clr-neutral-400: 52 55 48; /* #343730 */
+      --tw-clr-neutral-500: 26 28 25; /* #1a1c19 */
+      --tw-clr-neutral-600: 19 21 18; /* #131512 */
+      --tw-clr-neutral-700: 16 18 15; /* #101209 */
+      --tw-clr-neutral-800: 19 21 18; /* #131512 */
+      --tw-clr-neutral-900: 26 28 25; /* #1a1c19 */
+    }
+  }
+
+  /* FONTS START*/
+
+  /* Suwannaphum */
+  @font-face {
+    font-family: "Suwannaphum";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("/fonts/Suwannaphum-Thin.ttf");
+  }
+
+  @font-face {
+    font-family: "Suwannaphum";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/fonts/Suwannaphum-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "Suwannaphum";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/Suwannaphum-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Suwannaphum";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/Suwannaphum-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Suwannaphum";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("/fonts/Suwannaphum-Black.ttf");
+  }
+
+  /* Work Sans */
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("/fonts/WorkSans-Thin.ttf");
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/fonts/WorkSans-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/WorkSans-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/fonts/WorkSans-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/fonts/WorkSans-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/WorkSans-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("/fonts/WorkSans-Black.ttf");
+  }
+
+  /* FONTS END */
+
+  section {
+    max-width: 1400px;
+  }
+
+  a {
+    display: block;
+    outline-offset: 0;
+    width: fit-content;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid rgb(var(--tw-clr-primary-100));
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animated-bounce {
+    animation: bounce 2s infinite;
+  }
+
+  .animated-image {
+    animation: slideInFromTop 0.5s ease-out;
+  }
+
+  .animated-title {
+    animation: slideInFromTop 0.5s ease-out;
+  }
+
+  .animated-paragraph {
+    animation: slideInFromTop 0.5s ease-out;
+    animation-delay: 0.2s;
+  }
+
+  @keyframes blink-bounce {
+    0%,
+    100% {
+      opacity: 0.2;
+      transform: translateY(0);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+
+  .typing-indicator {
+  }
+
+  .typing-indicator span {
+    display: inline-block;
+    animation: blink-bounce 1.4s infinite both;
+  }
+
+  .typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+}
