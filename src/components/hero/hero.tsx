@@ -18,11 +18,11 @@ export const Hero = () => {
       <div className="grid lg:grid-cols-2 gap-8">
         <div className="bg-green-circle py-10 px-4 md:py-20 bg-contain bg-no-repeat bg-center">
           <h1 className="font-suwannaphum text-3xl md:text-5xl font-light leading-tight mb-4 max-w-[600px]">
-            Meet <strong className="font-bold">Garcho</strong> - Level 2{" "}
+            Meet <strong className="font-bold">Helpnode</strong> - Level 2{" "}
             <strong className="font-bold">AI Agents</strong>
           </h1>
           <p className="text-secondary-300 mb-10 max-w-[750px]">
-            <strong className="text-secondary-100 font-bold">Garcho</strong> can
+            <strong className="text-secondary-100 font-bold">Helpnode</strong> can
             reason, take multiple actions, and learn from your scenarios,
             becoming completely autonomous in handling complex tasks.
           </p>
@@ -86,7 +86,7 @@ export const Stats = () => {
             <h2 className="text-4xl font-light mb-6">Unique Selling Point</h2>
             <p className="text-secondary-300 mb-6">
               {
-                "Garcho will transform your customer engagement by processing multiple data points and delivering sub-second responses, ensuring seamless and truly helpful interactions."
+                "Helpnode will transform your customer engagement by processing multiple data points and delivering sub-second responses, ensuring seamless and truly helpful interactions."
               }
             </p>
 
@@ -145,7 +145,7 @@ export const Stats = () => {
                 1M
               </div>
               <span className="text-secondary-300">
-                Garcho process up to a million data points.
+                Helpnode process up to a million data points.
               </span>
             </div>
           </div>

@@ -1,4 +1,4 @@
-export const GarchoIcon = () => {
+export const HelpnodeIcon = () => {
   return (
     <svg
       width="16"

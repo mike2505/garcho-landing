@@ -34,7 +34,7 @@ export const IndustryInformation: React.FC<ChooseBusinessProps> = ({
       </h2>
       <span className="text-secondary-300">
         Choose the industry you'd like to explore. You'll see how a fictional
-        Hotel, Casino, Hospital, or E-commerce business is set up and how Garcho
+        Hotel, Casino, Hospital, or E-commerce business is set up and how Helpnode
         AI can manage customer interactions.
       </span>
 

@@ -41,13 +41,13 @@ export const VideoDemo = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-lg text-neutral-600"
         >
-          Garcho is at the forefront of revolutionizing customer engagement
+          Helpnode is at the forefront of revolutionizing customer engagement
           through innovative AI-powered Agents. Our mission is to enhance user
           experiences by providing tailored solutions for customer service
           Problems, that seamlessly integrate with your website. Founded by a
           team of tech enthusiasts, We are dedicated to helping businesses of
           all sizes reduce support costs, improve response times, and elevate
-          customer satisfaction. At Garcho, we believe in the power of
+          customer satisfaction. At Helpnode, we believe in the power of
           technology to transform how businesses interact with their customers.
           Our commitment to continuous improvement and customer-centric design
           ensures that our clients receive cutting-edge solutions that meet

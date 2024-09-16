@@ -75,7 +75,7 @@ export const Demo = () => {
             </div>
 
             <h2 className="text-3xl lg:text-5xl text-neutral-700 font-black mt-12 mb-3 font-suwannaphum max-w-[500px]">
-              Experience Garcho in action
+              Experience Helpnode in action
             </h2>
 
             <span className="font-suwannaphum text-3xl text-neutral-700 mb-6">
@@ -84,8 +84,8 @@ export const Demo = () => {
 
             <p className="text-neutral-600 max-w-[500px] leading-8 mb-12">
               This demo uses simulated data across six different industries to
-              showcase Garcho's capabilities. While the data is fictional, the
-              demonstration highlights how Garcho can be tailored to meet your
+              showcase Helpnode's capabilities. While the data is fictional, the
+              demonstration highlights how Helpnode can be tailored to meet your
               specific business needs and deliver real-world benefits.
             </p>
 

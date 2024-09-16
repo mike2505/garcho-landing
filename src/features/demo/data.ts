@@ -16,13 +16,13 @@ const eCommerceResources: Resource[] = [
   {
     question: "About us",
     answer:
-      " Garcho commerce is an online marketplace that offers a wide range of products, from electronics and fashion to home goods and beauty products. Our mission is to provide a seamless shopping experience with high-quality products and exceptional customer service.",
+      " Helpnode commerce is an online marketplace that offers a wide range of products, from electronics and fashion to home goods and beauty products. Our mission is to provide a seamless shopping experience with high-quality products and exceptional customer service.",
   },
 
   {
     question: "Contact",
     answer:
-      " You can contact our customer support team via email at support@garchocommerce.com or call us at 1-800-123-4567. Our support team is available Monday to Friday from 9 AM to 6 PM.",
+      " You can contact our customer support team via email at support@Helpnodecommerce.com or call us at 1-800-123-4567. Our support team is available Monday to Friday from 9 AM to 6 PM.",
   },
 
   {

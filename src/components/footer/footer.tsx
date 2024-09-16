@@ -13,9 +13,9 @@ export const Footer: React.FC = () => {
         <Logo />
         </div>
         <p className="text-secondary-300 max-w-[600px]">
-          Garcho is a cutting-edge AI platform designed to revolutionize customer
+          Helpnode is a cutting-edge AI platform designed to revolutionize customer
           support. With customizable AI agents and seamless third-party
-          integration, Garcho helps businesses across various industries deliver
+          integration, Helpnode helps businesses across various industries deliver
           exceptional customer experiences.
         </p>
       </div>
@@ -45,14 +45,14 @@ const FooterNav: React.FC = () => {
 const Socials: React.FC = () => {
   return (
     <div className="flex flex-wrap gap-4">
-      <Link href="https://facebook.com/Garchoai" aria-label="Facebook">
+      <Link href="https://facebook.com/Helpnodeai" aria-label="Facebook">
         <FacebookIcon />
       </Link>
 
-      <Link href="https://twitter.com/Garchoai" aria-label="Twitter">
+      <Link href="https://twitter.com/Helpnodeai" aria-label="Twitter">
         <TwitterIcon />
       </Link>
-      <Link href="https://linkedin.com/company/Garchoai" aria-label="LinkedIn">
+      <Link href="https://linkedin.com/company/Helpnodeai" aria-label="LinkedIn">
         <LinkedInIcon />
       </Link>
     </div>

@@ -50,7 +50,7 @@ export const FallbackComponent = () => {
           It looks like something went wrong while trying to submit your
           message. Please try again later, or reach out to us directly at
           <strong className="font-bold ml-2 text-primary-100">
-            sales@Garcho.ai
+            sales@Helpnode.ai
           </strong>
         </span>
       </div>

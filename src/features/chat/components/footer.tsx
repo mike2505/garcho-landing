@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { GarchoIcon } from "../assets/garcho-icon";
+import { HelpnodeIcon } from "../assets/helpnode-icon";
 
 const FooterStyles = styled.footer`
   display: flex;
@@ -25,8 +25,8 @@ export const Footer: React.FC = () => {
   return (
     <FooterStyles>
       <span className="first">Powered by</span>
-      <GarchoIcon />
-      <span className="second">Garcho AI</span>
+      <HelpnodeIcon />
+      <span className="second">Helpnode</span>
     </FooterStyles>
   );
 };

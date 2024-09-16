@@ -6,7 +6,7 @@ import { Contact } from "@/components/contact";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Garcho AI",
+  title: "Helpnode",
   description: "Your level 2 AI agents",
 };
 

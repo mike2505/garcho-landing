@@ -51,7 +51,7 @@ export const UseCases: React.FC = () => {
     <section className="px-4 py-40 w-full">
       <h2 className="font-suwannaphum font-bold text-3xl mb-6">Use Cases</h2>
       <p className="mb-10">
-        Discover how Garcho AI can transform customer support across various
+        Discover how Helpnode can transform customer support across various
         industries, making it a game-changer for your business.
       </p>
 

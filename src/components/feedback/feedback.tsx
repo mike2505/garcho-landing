@@ -8,7 +8,7 @@ const feedback: FeedbackCardProps[] = [
     position: "CTO at Red Bull",
     image: "/images/feedback.png",
     feedback:
-      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Garcho.”",
+      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Helpnode.”",
   },
 
   {
@@ -17,7 +17,7 @@ const feedback: FeedbackCardProps[] = [
     position: "CTO at Red Bull",
     image: "/images/feedback.png",
     feedback:
-      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Garcho.”",
+      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Helpnode.”",
   },
 
   {
@@ -26,7 +26,7 @@ const feedback: FeedbackCardProps[] = [
     position: "CTO at Red Bull",
     image: "/images/feedback.png",
     feedback:
-      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Garcho.”",
+      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Helpnode.”",
   },
 
   {
@@ -35,7 +35,7 @@ const feedback: FeedbackCardProps[] = [
     position: "CTO at Red Bull",
     image: "/images/feedback.png",
     feedback:
-      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Garcho.”",
+      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Helpnode.”",
   },
 
   {
@@ -44,7 +44,7 @@ const feedback: FeedbackCardProps[] = [
     position: "CTO at Red Bull",
     image: "/images/feedback.png",
     feedback:
-      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Garcho.”",
+      "“The integration was seamless, and the results speak for themselves. Our response times have improved significantly with Helpnode.”",
   },
 ];
 
@@ -55,7 +55,7 @@ export const Feedback: React.FC = () => {
         Testimonials
       </span>
       <h2 className="text-3xl font-bold mt-6 mb-10 font-suwannaphum">
-        Discover why people love Garcho
+        Discover why people love Helpnode
       </h2>
 
       <div className="grid  grid-flow-col gap-8 overflow-x-scroll">
