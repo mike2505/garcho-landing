@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <div className="bg-hero-background bg-cover flex justify-center">
+      <div className="grid-background bg-cover flex justify-center">
         <Hero />
       </div>
       <Stats />

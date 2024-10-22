@@ -2,10 +2,8 @@
 import { AngleRightIcon } from "@/assets/angle-right";
 import { CalendarIcon } from "@/assets/calendar-icon";
 import { HeroChatPrimary } from "@/assets/hero-chat-primary";
-import { HeroChatSecondary } from "@/assets/hero-chat-secondary";
 import { InfinityIcon } from "@/assets/infinity";
 import { cn } from "@/utils/cn";
-import Image from "next/image";
 import { Button } from "../button";
 import { Link } from "../link";
 import { useModal } from "../modal";
@@ -16,14 +14,15 @@ export const Hero = () => {
   return (
     <section id="home">
       <div className="grid lg:grid-cols-2 gap-8">
-        <div className="bg-green-circle py-10 px-4 md:py-20 bg-contain bg-no-repeat bg-center">
+        <div className="py-10 px-4 md:py-20 bg-contain bg-no-repeat bg-center relative">
+          <div className="circle-blur" />
           <h1 className="font-suwannaphum text-3xl md:text-5xl font-light leading-tight mb-4 max-w-[600px]">
             Meet <strong className="font-bold">Helpnode</strong> - Level 2{" "}
             <strong className="font-bold">AI Agents</strong>
           </h1>
           <p className="text-secondary-300 mb-10 max-w-[750px]">
-            <strong className="text-secondary-100 font-bold">Helpnode</strong> can
-            reason, take multiple actions, and learn from your scenarios,
+            <strong className="text-secondary-100 font-bold">Helpnode</strong>{" "}
+            can reason, take multiple actions, and learn from your scenarios,
             becoming completely autonomous in handling complex tasks.
           </p>
 

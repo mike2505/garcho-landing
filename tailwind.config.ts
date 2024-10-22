@@ -48,8 +48,6 @@ const config: Config = {
       },
 
       backgroundImage: {
-        "hero-background": "url('/images/hero-background.png')",
-        "green-circle": "url('/images/green-circle.png')",
         "tertiary-background": "url('/images/tertiary-bg.jpg')",
         "sphere-background": "url('/images/sphere.png')",
         "chat-background": "url('/images/chat-demo-background.png')",

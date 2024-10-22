@@ -244,9 +244,6 @@
     }
   }
 
-  .typing-indicator {
-  }
-
   .typing-indicator span {
     display: inline-block;
     animation: blink-bounce 1.4s infinite both;
@@ -259,4 +256,26 @@
   .typing-indicator span:nth-child(3) {
     animation-delay: 0.4s;
   }
+}
+
+.grid-background {
+  background-image: linear-gradient(
+      to right,
+      rgba(var(--tw-clr-green-100) / 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(var(--tw-clr-green-100) / 0.1) 1px,
+      transparent 1px
+    );
+  background-size: 20px 20px;
+}
+
+.circle-blur {
+  inset: 0;
+  position: absolute;
+  background-color: rgba(var(--tw-clr-green-100) / 0.2);
+  border-radius: 50%;
+  filter: blur(200px);
 }
