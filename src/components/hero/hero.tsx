@@ -15,7 +15,7 @@ export const Hero = () => {
     <section id="home">
       <div className="grid lg:grid-cols-2 gap-8">
         <div className="py-10 px-4 md:py-20 bg-contain bg-no-repeat bg-center relative">
-          <div className="circle-blur" />
+          <div className="circle-blur -z-10" />
           <h1 className="font-suwannaphum text-3xl md:text-5xl font-light leading-tight mb-4 max-w-[600px]">
             Meet <strong className="font-bold">Helpnode</strong> - Level 2{" "}
             <strong className="font-bold">AI Agents</strong>
@@ -62,10 +62,9 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div className="hidden lg:grid grid-cols-[4fr_3fr] items-center overflow-hidden relative translate-x-[20%] xl:translate-x-0">
-          <div className="relative translate-x-[35%]">
-            <HeroChatPrimary />
-          </div>
+        <div className="hidden lg:grid grid-cols-[3fr_4fr] items-center overflow-hidden relative xl:translate-x-0">
+          <div />
+          <HeroChatPrimary />
         </div>
       </div>
     </section>
@@ -88,27 +87,6 @@ export const Stats = () => {
                 "Helpnode will transform your customer engagement by processing multiple data points and delivering sub-second responses, ensuring seamless and truly helpful interactions."
               }
             </p>
-
-            <Link
-              className={cn(
-                "rounded-md py-3 px-6 font-medium bg-secondary-400/50 text-secondary-100 border border-neutral-100",
-                "flex items-center gap-2",
-                "hover:bg-secondary-300/50 active:bg-secondary-400/60",
-                "group",
-              )}
-              href="#pricing"
-            >
-              Contact sales
-              <span
-                className={cn(
-                  "block transition-transform",
-                  "group-hover:translate-x-1",
-                  "group-focus-visible:translate-x-1",
-                )}
-              >
-                <AngleRightIcon />
-              </span>
-            </Link>
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2">

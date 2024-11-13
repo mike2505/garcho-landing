@@ -30,9 +30,9 @@ export default function Home() {
         <UseCases />
       </div>
 
-      <div className="flex justify-center bg-neutral-700">
+      {/* <div className="flex justify-center bg-neutral-700">
         <Pricing />
-      </div>
+      </div> */}
 
       {/* <div className="flex justify-center bg-neutral-700 py-40">
         <Feedback />

@@ -10,7 +10,6 @@ export const Navbar = () => {
       <ul className="flex gap-8">
         <NavItem text="Features" section="features" />
         <NavItem text="Demo" section="demo" />
-        <NavItem text="Pricing" section="pricing" />
       </ul>
     </nav>
   );
